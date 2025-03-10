@@ -13,28 +13,59 @@
 </head>
 <body>
 
-    <label for="name" class="form-label">ชื่อ</label>
-    <input type="text" class="form-control" id="name">
+    <form class="row g-3 needs-validation" action="#" method="POST" novalidate>
+        <div class="col-md-6">
+            <label for="firstName" class="form-label">ชื่อ</label>
+            <input type="text" class="form-control" id="firstName" required>
+            <div class="invalid-feedback">Please enter your first name.</div>
+        </div>
+        <div class="col-md-6">
+            <label for="lastName" class="form-label">นามสกุล</label>
+            <input type="text" class="form-control" id="lastName" required>
+            <div class="invalid-feedback">Please enter your last name.</div>
+        </div>
 
-    <label for="name" class="form-label">นามสกุล</label>
-    <input type="text" class="form-control" id="name">
+        <div class="col-md-6">
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="firstName" required>
+            <div class="invalid-feedback">Please enter your first name.</div>
+        </div>
+        <div class="col-md-6">
+            <label for="lastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="lastName" required>
+            <div class="invalid-feedback">Please enter your last name.</div>
+        </div>
 
-    <label for="name" class="form-label">Name</label>
-    <input type="text" class="form-control" id="name">
+        <div class="col-md-12">
+            <label for="firstName" class="form-label">ชื่อเล่น</label>
+            <input type="text" class="form-control" id="firstName" required>
+            <div class="invalid-feedback">Please enter your nickname.</div>
+        </div>
 
-    <label for="name" class="form-label">Surname</label>
-    <input type="text" class="form-control" id="name">
+        <div class="col-md-12">
+            <label for="firstName" class="form-label">รหัสนักศึกษา</label>
+            <input type="text" class="form-control" id="firstName" required>
+            <div class="invalid-feedback">Please enter your id.</div>
+        </div>
 
-    <label for="name" class="form-label">ชื่อเล่น</label>
-    <input type="text" class="form-control" id="name">
+        <div class="col-md-12">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required>
+            <div class="invalid-feedback">Please enter a valid email.</div>
+        </div>
+        
+        <div class="col-md-12">
+            <label for="firstName" class="form-label">เบอร์มือถือ</label>
+            <input type="text" class="form-control" id="firstName" required>
+            <div class="invalid-feedback">Please enter your phone number.</div>
+        </div>
 
-    <label for="name" class="form-label">รหัสนักศึกษา</label>
-    <input type="text" class="form-control" id="name">
+        <textarea class="form-control" rows="4" placeholder="Enter your
+        message"></textarea>
 
-    <div class="form-floating">
-        <input type="email" class="form-control" id="floatingInput"
-    placeholder="name@example.com">
-        <label for="floatingInput">Email address</label>
-    </div>
+        <div class="col-12">
+            <button class="btn btn-primary" type="submit">Register</button>
+        </div>
+    </form>
 </body>
 </html>
